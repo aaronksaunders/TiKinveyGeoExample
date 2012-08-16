@@ -63,15 +63,14 @@ MapWindow.prototype.addAnnotation = function(_data) {
 }
 
 MapWindow.prototype.close = function() {
-	if (this.window)
-		this.window.close();
+	this.mapView && this.window.remove(this.mapView);
+	this.window && this.window.close();
 	this.window = null;
 	this.initialized = false;
 }
 
 MapWindow.prototype.open = function() {
-	if (this.window)
-		this.window.open();
+	this.window && this.window.open();
 }
 
 exports.MapWindow = MapWindow;
