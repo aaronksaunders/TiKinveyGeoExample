@@ -1,1 +1,0 @@
-/Users/aaronksaunders/Documents/workspace/kinvey/kinvey_location_test/Resources/kinvey-titanium-0.9.8.js

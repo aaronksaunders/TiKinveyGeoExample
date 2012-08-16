@@ -3,8 +3,8 @@ var Kinvey = require('/kinvey-titanium-0.9.8');
 Ti.API.info('kinvey ' + JSON.stringify(Kinvey));
 
 Kinvey.init({
-	appKey : 'kid1853',
-	appSecret : '851375419a4643b08744fdbdf298a6bb'
+	appKey : 'xxxxxxxxxxxxxx', // USE YOUR CREDENTIALS
+	appSecret : 'xxxxxxxxxxxxxxxxxxxxxxxxxx' // USE YOUR CREDENTIALS
 });
 
 // create a user or login if the user already exists...
@@ -28,7 +28,7 @@ Kinvey.User.create({
 });
 
 //
-// KINVEY MAGIC
+// KINVEY MAGIC - Get Hotels ao
 //
 function getLocationsInformationFromKinvey() {
 	var query = new Kinvey.Query();
