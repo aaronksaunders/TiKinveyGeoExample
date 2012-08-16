@@ -3,7 +3,10 @@
 This is a Appcelerator Titanium sample app integrated with Kinvey, to use make an account on
 https://console.kinvey.com
 
-For more details, see the blog post at http://goo.gl/9dyMm.
+Here is my original blog posting on Kinvey, and an older github project that needs to be updated to use 
+the Kinvey Titanium Module, it is currently using my code http://bit.ly/LySOSb
+
+For more details on integrating Kinvey and Foursquare as a data provider, see the blog post at http://goo.gl/9dyMm.
 
 
 Also, you have to update `app-key` and `app-secret` in the file `app.js`
