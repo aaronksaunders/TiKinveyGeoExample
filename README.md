@@ -20,6 +20,6 @@ this code should run on IOS, still working IOS first then Android... Sorry Andro
 
 To enable Data Integration with this app, just 
 
-* Create a new collection ![Create New Collection](https://raw.github.com/aaronksaunders/TiKinveyGeoExample/master/screenshots/create_collection.png "Create Collection")!
+* Create a new collection ![Create New Collection](https://raw.github.com/aaronksaunders/TiKinveyGeoExample/master/screenshots/create_collection.png "Create Collection")
 *! Select a provider (for example Foursquare) and enter credentials ![Select Foursquare](https://raw.github.com/aaronksaunders/TiKinveyGeoExample/master/screenshots/add_foursquare_creds.png "Select Foursquare")
 * Enter your credentials, the run your app ![Running Application](https://raw.github.com/aaronksaunders/TiKinveyGeoExample/master/screenshots/test%20app.png "Enter Credentials")
